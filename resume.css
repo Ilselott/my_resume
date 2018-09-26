@@ -1,0 +1,105 @@
+html, body {
+    min-height:100%;
+    height: auto;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    color: white;
+    opacity: 1;
+}
+
+main {
+    min-height: 100vh;
+    height: auto;
+}
+
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fulltable {
+    height: 100vh;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #7BCDC3;
+}
+
+
+.lang-select-bg {
+    background-attachment: fixed;
+    background-image: url("willian-justen-de-vasconcellos-595793-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infinite {
+    min-height: 100vh;
+    height: auto;
+}
+
+.left-pad {
+    padding-left: 4vw;
+}
+
+.right-pad {
+    padding-right: 4vw;
+}
+
+.no-bordeur {
+    border: none;
+}
+
+.color {
+    background-color: #1E1832;
+    opacity: .8;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.title-margin {
+    margin-bottom: 30px;
+}
+
+.category-titles {
+    font-family: Matchbook, sans-serif;
+    font-size: 80px;
+}
+
+.small-titles {
+    font-family: Matchbook, sans-serif;
+    font-size: 50px;
+}
+
+.content {
+    font-family: roboto, sans-serif;
+}
+
+@font-face {
+    font-family: Matchbook;
+    src: url("Matchbook.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("Roboto-Thin.ttf") format("truetype");
+}
